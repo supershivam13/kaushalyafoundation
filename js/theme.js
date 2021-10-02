@@ -3,10 +3,7 @@
 	
 	
 	var nav_offset_top = $('header').height() + 50; 
-    /*-------------------------------------------------------------------------------
-	  Navbar 
-	-------------------------------------------------------------------------------*/
-
+    
 	//* Navbar Fixed  
     function navbarFixed(){
         if ( $('.header_area').length ){ 
@@ -23,24 +20,13 @@
     navbarFixed();
 	
 	
-	/*----------------------------------------------------*/
-    /*  Parallax Effect js
-    /*----------------------------------------------------*/
+	
 	function parallaxEffect() {
     	$('.bg-parallax').parallax();
 	}
 	parallaxEffect();
 	
 	
-//	$('.courses_area').imagesLoaded(function(){
-//        $('.courses_inner').isotope({ 
-//            layoutMode: 'masonry',
-//			percentPosition: true,
-//			masonry: {
-//				columnWidth: 1,
-//			}
-//        })
-//    });
 	
 	
 	
