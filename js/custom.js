@@ -1,11 +1,7 @@
 ;(function($){
     "use strict"
     var nav_offset_top = $('.header_area').height()+50; 
-    /*-------------------------------------------------------------------------------
-	  Navbar 
-	-------------------------------------------------------------------------------*/
-
-	//* Navbar Fixed  
+   
     function navbarFixed(){
         if ( $('.header_area').length ){ 
             $(window).scroll(function() {
@@ -43,15 +39,11 @@
         }
     }
     testimonialSlider();
-    
-    //------- Mailchimp js --------//  
 
     function mailChimp(){
         $('#mc_embed_signup').find('form').ajaxChimp();
     }
     mailChimp();
-    
-    /* ===== Parallax Effect===== */
 	
 	function parallaxEffect() {
     	$('.bg-parallax').parallax();
@@ -64,7 +56,7 @@
         daysOfWeekDisabled: [0, 6]
     });
     
-     /*---------gallery isotope js-----------*/
+     
     function galleryMasonry(){
         if ( $('#gallery').length ){
             $('#gallery').imagesLoaded( function() {
