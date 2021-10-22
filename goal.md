@@ -1,0 +1,5 @@
+ - End hunger, achieve food security and improved nutrition and promote sustainable agriculture
+ - Promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all while promoting gender equality
+ - Ensure healthy lives and promote well-being
+ - Ensure availability and sustainable management of water and sanitation for all
+ - Ensure inclusive and equitable quality education and promote lifelong learning andentrepreneurship opportunities for all
